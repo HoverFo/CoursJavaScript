@@ -1,0 +1,122 @@
+.diaporama {
+  width: 800px;
+  margin: auto;
+}
+
+.diaporama ul {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+.diaporama li {
+  width: 150px;
+  padding: 5px;
+}
+
+.diaporama li:nth-child(n+5) {
+  display: none;
+}
+
+.diaporama li img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: #fff;
+  width: 100%;
+}
+
+.diaporama figure {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+}
+
+.diaporama img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: #fff;
+  width: 100%;
+}
+
+.diaporama figcaption {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: rgb(50, 43, 43);
+  color: white;
+  font-size: 2em;
+  width: 100%;
+}
+
+.diaporama > div{
+  display:flex;
+  align-items: center;
+}
+.diaporama > div > div {
+  width: 50px;
+  height: 50px;
+  background-image: url(images/gauche.jpg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+
+}
+.diaporama > div > div ~ div{
+  background-image: url(images/droite.jpg);
+}
+/*************/
+/* pelemele  */
+/*************/
+
+.pelemele {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.pelemele ul {
+  width: 600px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+.pelemele li {
+  width: 150px;
+  padding: 5px;
+}
+
+.pelemele li img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: #fff;
+  width: 100%;
+}
+
+.pelemele figure {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+}
+
+.pelemele img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: #fff;
+  width: 100%;
+}
+
+.pelemele figcaption {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000000;
+  background-color: rgb(50, 43, 43);
+  color: white;
+  font-size: 2em;
+  width: 100%;
+}
